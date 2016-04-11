@@ -11,6 +11,12 @@ public class ValidateDemo {
 		input.add("9");
 		input.add("987 ");
 		input.add("xs");
+		input.add("...");
+		input.add("1");
+		input.add("");
+		input.add("/");
+		input.add("aaa/");
+		input.add("\\0");
 
 		String usernameOK = "[a-zAz0-9]{3,}";
 		Pattern p = Pattern.compile(usernameOK);
